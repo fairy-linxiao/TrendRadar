@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 305</p><p>生成时间: 2025-06-29 12:26:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">应届生 春招 秋招 校招</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.31%</td>
+                    <td class="titles">[nowcoder] <a href="https://www.nowcoder.com/discuss/768242433137070080" target="_blank" class="news-link">我的校招终于是结束了</a> [6] <font color='grey'>- 12时26分</font><br>[nowcoder] <a href="https://www.nowcoder.com/feed/main/detail/1bf8a86aa2794cfca50a3434e827d985" target="_blank" class="news-link">双9但非科班0实习秋招能找到Java大厂吗</a> [9] <font color='grey'>- 12时26分</font><br>[nowcoder] <a href="https://www.nowcoder.com/feed/main/detail/11b1fa18a4224fffa6d9fee096b0db17" target="_blank" class="news-link">正在实习，怎么平衡实习和秋招？</a> [16] <font color='grey'>- 12时26分</font><br>[nowcoder] <a href="https://www.nowcoder.com/feed/main/detail/6524dbed89774a4d9daea21d5fe45d1a" target="_blank" class="news-link">航旅纵横 前端 校招</a> [19] <font color='grey'>- 12时26分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">产品经理 运营 市场营销 用户增长</td>
+                    <td class="count">3</td>
+                    <td class="percentage">0.98%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31057372" target="_blank" class="news-link">大庸古城被指建设运营存在问题，张家界召开专题会议部署整改</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时26分</font><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8kZbhGcUgBb" target="_blank" class="news-link">海康威视回应被加政府命令停止运营</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 12时26分</font></div><br><div class='new-title'>🆕 [weibo] <a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E5%9B%9E%E5%BA%94%E8%A2%AB%E5%8A%A0%E6%94%BF%E5%BA%9C%E5%91%BD%E4%BB%A4%E5%81%9C%E6%AD%A2%E8%BF%90%E8%90%A5%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">海康威视回应被加政府命令停止运营</a> [20] <font color='grey'>- 12时26分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">求职 找工作</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.66%</td>
+                    <td class="titles">[chongbuluo] <a href="https://www.chongbuluo.com/thread-22243-1-1.html" target="_blank" class="news-link">毕业季：推荐 9 个 适合应届大学生的求职网站！以及其他 24 个招聘平台！</a> [8] <font color='grey'>- 12时26分</font><br>[chongbuluo] <a href="https://www.chongbuluo.com/thread-22281-1-1.html" target="_blank" class="news-link">找工作（发癫版）</a> [10] <font color='grey'>- 12时26分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">简历 面试</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.33%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31058212" target="_blank" class="news-link">张益唐将在赛百味打零工写入简历，网友：人生路上果然没有坦途</a> [6] <font color='grey'>- 12时26分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 2 条)</h3>
+            <h4>凤凰网 (1 条)</h4><ul><li><a href="https://news.ifeng.com/c/8kZbhGcUgBb" target="_blank" class="news-link">海康威视回应被加政府命令停止运营</a> <font color='red'><strong>[2]</strong></font></li></ul><h4>weibo (1 条)</h4><ul><li><a href="https://m.weibo.cn/search?containerid=231522type%3D1%26q%3D%23%E6%B5%B7%E5%BA%B7%E5%A8%81%E8%A7%86%E5%9B%9E%E5%BA%94%E8%A2%AB%E5%8A%A0%E6%94%BF%E5%BA%9C%E5%91%BD%E4%BB%A4%E5%81%9C%E6%AD%A2%E8%BF%90%E8%90%A5%23&amp;_T_WM=16922097837&amp;v_p=42" target="_blank" class="news-link">海康威视回应被加政府命令停止运营</a> [20]</li></ul></div>
+        </body>
+        </html>
+        
